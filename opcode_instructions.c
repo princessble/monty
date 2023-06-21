@@ -2,7 +2,6 @@
 
 /**
  * _push - pushes an element to the stack
- *
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
@@ -39,8 +38,7 @@ void _push(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pall - prints all values on the stack
- *
+ * _pall - prnts all values on the stack
  * @doubly: head of the linked list
  * @cline: line numbers
  * Return: no return
@@ -60,8 +58,7 @@ void _pall(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pint - prints the value at the top of the stack
- *
+ * _pint - prnts the value at the top of the stack
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
@@ -82,8 +79,7 @@ void _pint(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _pop - removes the top element of the stack
- *
+ * _pop - rmvs the top element of the stack
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
@@ -105,7 +101,6 @@ void _pop(stack_t **doubly, unsigned int cline)
 
 /**
  * _swap - swaps the top two elements of the stack
- *
  * @doubly: head of the linked list
  * @cline: line number
  * Return: no return
