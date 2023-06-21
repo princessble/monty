@@ -4,7 +4,6 @@ global_t vglo;
 
 /**
  * free_vglo - frees the global variables
- *
  * Return: no return
  */
 void free_vglo(void)
@@ -16,7 +15,6 @@ void free_vglo(void)
 
 /**
  * start_vglo - initializes the global variables
- *
  * @fd: file descriptor
  * Return: no return
  */
@@ -33,7 +31,6 @@ void start_vglo(FILE *fd)
 /**
  * check_input - checks if the file exists and if the file can
  * be opened
- *
  * @argc: argument count
  * @argv: argument vector
  * Return: file struct
@@ -61,7 +58,6 @@ FILE *check_input(int argc, char *argv[])
 
 /**
  * main - Entry point
- *
  * @argc: argument count
  * @argv: argument vector
  * Return: 0 on success
